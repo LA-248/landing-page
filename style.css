@@ -1,0 +1,222 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Header - Nav Bar */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Header - Nav Bar Links */
+
+.menu {
+  display: flex;
+  gap: 40px;
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+
+a:hover {
+  color: gainsboro;
+}
+
+/* Hero Section - Left Content + Image */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  padding: 20px 200px 150px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1f2937;
+  margin-top: 60px;
+}
+
+.hero-left {
+  color: white;
+  max-width: 30%;
+}
+
+.hero-img {
+  width: 600px;
+  height: auto;
+  border-radius: 25px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+/* Hero - Sign Up Button */
+
+.sign-up-button {
+  padding: 14px;
+  border-radius: 25px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  width: 200px;
+  background-color: #3882f6;
+  color: white;
+}
+
+.sign-up-button:hover {
+  background-color: #1463E4;
+  cursor: pointer;
+}
+
+/* Information Section */
+
+.information-section {
+  background-color: #EFF0F6;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  padding: 75px 0;
+}
+
+.info-header {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  padding: 75px 0 0;
+}
+
+.info-subtext {
+  width: 200px;
+  margin-top: 24px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Information Section - Images */
+
+.bitcoin, .ethereum, .dogecoin, .monero {
+  width: 200px;
+  height: auto;
+}
+
+/* Quote Section */
+
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  height: 600px;
+}
+
+.all-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.quote-text {
+  max-width: 790px;
+  font-weight: lighter;
+  text-align: left;
+  font-size: 36px;
+}
+
+/* Call To Action Section */
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #EFF0F6;
+  height: 600px;
+}
+
+.cta-wrapper {
+  background-color: #0BDA62;
+  border-radius: 40px;
+}
+
+.cta-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
+  padding: 5rem 10rem;
+}
+
+/* CTA - Left Side Content */
+
+.cta-left {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.cta-text {
+  font-size: 24px;
+}
+
+.cta-paragraph {
+  margin-top: -10px;
+}
+
+/* CTA - Sign Up Button */
+
+.cta-button {
+  padding: 14px;
+  border-radius: 25px;
+  border: 3px solid white;
+  font-size: 16px;
+  font-weight: bold;
+  width: 200px;
+  background-color: transparent;
+  color: white;
+}
+
+.cta-button:hover {
+  color: #0BDA62;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+  background-color: #1f2937;
+  color: white;
+}
